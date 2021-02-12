@@ -1,36 +1,29 @@
 # xrpl-py
 
-Supports Python 3.5 and later.
+A pure Python implementation of the core functionality necessary to interact with the XRPL Ledger. This library supports the difficult tasks of XRPL serialization and transaction signing, and provides useful native Python models for XRP Ledger objects and `rippled` request and response objects.
 
-## Contributing
+# Installation
 
-### Setting up the dev environment
+When it is released, this package will be available to be installed via `pip`. It supports Python 3.5 and later.
 
-Install poetry per the instructions at https://python-poetry.org/docs/
+# Features
 
-```bash
-poetry install
-```
+TBD
 
-This will install dev and library dependencies.
+# Usage
 
-Install pre-commit globally to get access to the pre-commit hooks:
+TBD
 
-```bash
-pip install pre-commit
-```
+# Documentation
 
-### Linting
+In progress, will be linked/discussed here.
 
-After setting up the dev environment using the commands above, you can run the linter
-by executing
+# Contributing
 
-```bash
-poetry run flake8 ./xrpl
-```
+We have collected notes on how to contribute to this project in [CONTRIBUTING.md].
 
-### Running Tests
+[CONTRIBUTING.md]: CONTRIBUTING.md
 
-```bash
-poetry run nox -rs tests
-```
+# License
+
+????
