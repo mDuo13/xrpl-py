@@ -24,3 +24,8 @@ repos:
         entry: poetry run flake8
         language: system
         types: [python]
+      - id: mypy
+        name: mypy
+        entry: poetry run mypy --strict xrpl
+        language: system
+        types: [python]
