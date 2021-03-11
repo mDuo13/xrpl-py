@@ -18,6 +18,11 @@ REQUIRED: Final[object] = object()
 class BaseModel(ABC):
     """The base class for all model types."""
 
+    # Test
+    def __init__(self: BaseModel, **kwargs: str) -> None:
+        """Constructs a new BaseModel from a set of keyword arguments."""
+        self.__dict__.update(kwargs)
+
     @classmethod
     def from_dict(cls: Type[BaseModel], value: Dict[str, Any]) -> BaseModel:
         """
