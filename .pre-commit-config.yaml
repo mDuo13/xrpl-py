@@ -26,6 +26,7 @@ repos:
         types: [python]
       - id: mypy
         name: mypy
-        entry: poetry run mypy --strict xrpl
+        entry: poetry run mypy
+        args: ["--strict"]
         language: system
         types: [python]
